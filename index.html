@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PlateTags — Label Designer</title>
     <!--
-      Zebra Browser Print client. Served locally by the Browser Print app
-      installed on the workstation. Loaded here so window.BrowserPrint is
-      available; print/browserPrint.ts wraps it.
+      Zebra Browser Print client SDK — a generic static file, committed and
+      served by this site itself (see public/README.md). It talks to the
+      Browser Print *application*, which is the piece that must actually be
+      installed on each workstation that prints. Loaded here so
+      window.BrowserPrint is available; print/browserPrint.ts wraps it.
     -->
     <script src="%BASE_URL%BrowserPrint-3.1.250.min.js"></script>
 

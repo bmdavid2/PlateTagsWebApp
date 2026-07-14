@@ -2,8 +2,4 @@ node_modules
 dist
 *.tsbuildinfo
 .DS_Store
-
-# Zebra Browser Print SDK client — vendored per workstation, not committed.
-# See public/README.md.
-public/BrowserPrint-*.js
 .Rproj.user
