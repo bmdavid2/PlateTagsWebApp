@@ -1,9 +1,12 @@
 import { getTemplate } from "../labels/templates";
 import { MIN_FONT_SIZE_IN, resolveField } from "../labels/resolve";
 import type { LabelData } from "../labels/types";
+import { getCodeField, validateManualValue } from "../qr/validation";
 
-// Field entry for a single label: text lines + QR toggle + copy count.
-// The QR mode selector is exposed per template's QR field (uuid vs field).
+// Field entry for a single label: text lines + print-code toggle + optional
+// pre-specified code + copy count. A code field's format (uuid/shortId/field)
+// is fixed by the template, not user-selectable — the form just offers a
+// blank-means-generate "Code" input for uuid/shortId fields.
 // Text field font size auto-shrinks to fit (see resolveField); the hint below
 // each input surfaces that so the user knows why their text looks smaller.
 
@@ -18,13 +21,12 @@ export function FieldForm({
   // Mirror fields (sourceField set) echo another field and take no own input.
   const textFields = template.fields.filter((f) => f.kind === "text" && !f.sourceField);
   // The primary encoded field is a QR, Code128, or PDF417 that resolves its own
-  // payload — all share the same content resolution (uuid vs field) and on/off
-  // toggle. Mirror fields (mirrorPayloadOf) just copy it, so they're not the
+  // payload. Mirror fields (mirrorPayloadOf) just copy it, so they're not the
   // one whose content the form controls.
-  const codeField = template.fields.find(
-    (f) => (f.kind === "qr" || f.kind === "barcode" || f.kind === "pdf417") && !f.mirrorPayloadOf,
-  );
+  const codeField = getCodeField(template);
   const codeNoun = codeField?.kind === "qr" ? "QR code" : "barcode";
+  const codeMode = codeField?.qrMode ?? "uuid";
+  const codeError = codeField ? validateManualValue(codeField, data.code ?? "", template.dpi) : null;
 
   function setValue(id: string, value: string) {
     onChange({ ...data, values: { ...data.values, [id]: value } });
@@ -65,43 +67,32 @@ export function FieldForm({
           <label className="checkbox">
             <input
               type="checkbox"
-              checked={data.qr}
-              onChange={(e) => onChange({ ...data, qr: e.target.checked })}
+              checked={data.printCode}
+              onChange={(e) => onChange({ ...data, printCode: e.target.checked })}
             />
-            Generate {codeNoun}
+            Print code
           </label>
-          {data.qr && (
-            <>
+          {data.printCode &&
+            (codeMode === "field" ? (
+              <p className="hint">
+                This {codeNoun} mirrors the "{codeField.qrSourceField}" field — nothing to enter here.
+              </p>
+            ) : (
               <label className="field">
-                <span>{codeNoun} content</span>
-                <select
-                  value={data.qrMode ?? codeField.qrMode ?? "uuid"}
-                  onChange={(e) =>
-                    onChange({ ...data, qrMode: e.target.value as "uuid" | "field" | "shortId" })
-                  }
-                >
-                  <option value="uuid">Random UUID (unique per label)</option>
-                  <option value="shortId">Short ID (7 chars, unique per label)</option>
-                  <option value="field">From a field</option>
-                </select>
+                <span>Code (optional — leave blank to auto-generate)</span>
+                <input
+                  type="text"
+                  placeholder={codeMode === "uuid" ? "e.g. 8f14e45f-…-…-…-…" : "7 hex characters"}
+                  value={data.code ?? ""}
+                  onChange={(e) => onChange({ ...data, code: e.target.value })}
+                />
+                {codeError && (
+                  <span className="hint error" style={{ display: "block" }}>
+                    {codeError}
+                  </span>
+                )}
               </label>
-              {(data.qrMode ?? codeField.qrMode) === "field" && (
-                <label className="field">
-                  <span>{codeNoun} source field</span>
-                  <select
-                    value={data.qrSourceField ?? codeField.qrSourceField ?? textFields[0]?.id ?? ""}
-                    onChange={(e) => onChange({ ...data, qrSourceField: e.target.value })}
-                  >
-                    {textFields.map((f) => (
-                      <option key={f.id} value={f.id}>
-                        {f.label ?? f.id}
-                      </option>
-                    ))}
-                  </select>
-                </label>
-              )}
-            </>
-          )}
+            ))}
         </>
       )}
 

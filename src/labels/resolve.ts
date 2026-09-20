@@ -32,7 +32,7 @@ export function estimateMaxChars(maxWidthIn: number | undefined, sizeIn: number)
 
 /**
  * Resolve a field's final layout for rendering/printing:
- *  1. Apply `base.noCodeLayout` when the code toggle (`data.qr`) is off (text fields only).
+ *  1. Apply `base.noCodeLayout` when the code toggle (`data.printCode`) is off (text fields only).
  *  2. Apply the user's manual LayoutOverride (x/y/size/font) on top. If it sets `size`,
  *     that size is final and step 3 is skipped.
  *  3. Otherwise, auto-fit: shrink `size` to fit the field's current text within
@@ -43,7 +43,7 @@ export function estimateMaxChars(maxWidthIn: number | undefined, sizeIn: number)
 export function resolveField(base: FieldSpec, data: LabelData): FieldSpec {
   let field: FieldSpec = base;
 
-  if (!data.qr && base.kind === "text" && base.noCodeLayout) {
+  if (!data.printCode && base.kind === "text" && base.noCodeLayout) {
     field = { ...field, ...base.noCodeLayout };
   }
 

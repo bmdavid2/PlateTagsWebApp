@@ -141,7 +141,7 @@ function buildBody(template: LabelTemplate, data: LabelData): string {
         }),
       );
     } else if (field.kind === "qr") {
-      if (!data.qr) continue;
+      if (!data.printCode) continue;
       const payload = payloads[field.id];
       if (!payload) continue;
       const origins = [{ x: field.x, y: field.y }, ...(field.mirrorOrigins ?? [])];
@@ -159,7 +159,7 @@ function buildBody(template: LabelTemplate, data: LabelData): string {
         );
       }
     } else if (field.kind === "barcode") {
-      if (!data.qr) continue; // the "generate code" toggle governs all code kinds alike
+      if (!data.printCode) continue; // the "print code" toggle governs all code kinds alike
       const payload = payloads[field.id];
       if (!payload) continue;
       parts.push(
@@ -175,7 +175,7 @@ function buildBody(template: LabelTemplate, data: LabelData): string {
         }),
       );
     } else if (field.kind === "pdf417") {
-      if (!data.qr) continue;
+      if (!data.printCode) continue;
       const payload = payloads[field.id];
       if (!payload) continue;
       parts.push(

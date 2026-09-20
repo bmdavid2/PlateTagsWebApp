@@ -145,8 +145,8 @@ export interface LabelTemplate {
   rotate?: 0 | 90 | 180 | 270;
   /** Optional die-cut region guides drawn in the preview. */
   regions?: LabelRegion[];
-  /** Default state of the QR toggle for a new label (defaults to true). */
-  qrDefault?: boolean;
+  /** Default state of the "print code" toggle for a new label (defaults to true). */
+  printCodeDefault?: boolean;
   /** Default fields laid out on the label. */
   fields: FieldSpec[];
 }
@@ -169,12 +169,14 @@ export interface LabelData {
   values: Record<string, string>;
   /** Field id -> layout override. */
   overrides: Record<string, LayoutOverride>;
-  /** Whether the QR field is rendered. */
-  qr: boolean;
-  /** Override the template's QR mode (uuid vs a field value). */
-  qrMode?: QrMode;
-  /** When qrMode is "field", the field id whose value the QR encodes. */
-  qrSourceField?: string;
+  /** Whether the code field (qr/barcode/pdf417) is printed at all. */
+  printCode: boolean;
+  /**
+   * A pre-specified code value, used verbatim instead of generating one.
+   * Only applies when the template's code field is in "uuid" or "shortId"
+   * mode; blank/absent means auto-generate (the previous, only, behavior).
+   */
+  code?: string;
   /** Number of copies. */
   count: number;
 }

@@ -139,8 +139,12 @@ export function barcodeElement(opts: {
  * rather than pretending it fits — the caller uses the real row count instead
  * of `targetRows` in that case, so the output stays geometrically valid.
  * Returns null if bwip-js can't encode `data` at all (e.g. empty string).
+ *
+ * Exported so src/qr/validation.ts can reuse this same real-encode probe to
+ * check ahead of time whether a manually-typed code value fits a pdf417
+ * field's row budget, instead of only discovering an overflow at print time.
  */
-function pdf417Grid(
+export function pdf417Grid(
   data: string,
   targetRows: number,
 ): { columns: number; rows: number; pixx: number } | null {

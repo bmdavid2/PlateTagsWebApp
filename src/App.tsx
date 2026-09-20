@@ -9,6 +9,7 @@ import { LayoutControls } from "./ui/LayoutControls";
 import { LabelPreview } from "./ui/LabelPreview";
 import { PrintPanel } from "./ui/PrintPanel";
 import { BatchTable } from "./ui/BatchTable";
+import { validateLabelQr, validateBatchRow } from "./qr/validation";
 
 type Tab = "single" | "batch";
 
@@ -18,7 +19,7 @@ function initialLabelData(templateId: string): LabelData {
     templateId,
     values: {},
     overrides: {},
-    qr: t.qrDefault ?? true,
+    printCode: t.printCodeDefault ?? true,
     count: 1,
   };
 }
@@ -30,6 +31,10 @@ export default function App() {
   // Single-label state
   const [data, setData] = useState<LabelData>(initialLabelData(TEMPLATES[0].id));
   const singleZpl = useMemo(() => buildLabelZpl(data), [data]);
+  const codeError = useMemo(
+    () => validateLabelQr(data, getTemplate(data.templateId)),
+    [data],
+  );
 
   // Batch state
   const [batchTemplateId, setBatchTemplateId] = useState(TEMPLATES[0].id);
@@ -38,6 +43,10 @@ export default function App() {
     () => buildBatchZpl(rows.map((r) => rowToLabelData(batchTemplateId, r))),
     [rows, batchTemplateId],
   );
+  const batchHasErrors = useMemo(() => {
+    const batchTemplate = getTemplate(batchTemplateId);
+    return rows.some((r) => validateBatchRow(r, batchTemplate) != null);
+  }, [rows, batchTemplateId]);
 
   function changeTemplate(id: string) {
     // Reset overrides/values when switching template, since field ids differ.
@@ -95,7 +104,8 @@ export default function App() {
             </div>
             <div className="panel">
               <h2>Print</h2>
-              <PrintPanel zpl={singleZpl} />
+              {codeError && <p className="status error">{codeError}</p>}
+              <PrintPanel zpl={singleZpl} disabled={!!codeError} />
             </div>
           </div>
         </div>
@@ -105,14 +115,14 @@ export default function App() {
             <h2>Batch labels</h2>
             <TemplatePicker value={batchTemplateId} onChange={setBatchTemplateId} />
             <p className="hint">
-              Import a CSV (count, QR, line_1…line_7) or edit rows directly. Each row prints its
-              own copy count.
+              Import a CSV (count, PrintCode, Code, line_1…line_7) or edit rows directly. Each row
+              prints its own copy count; leave Code blank to auto-generate.
             </p>
-            <BatchTable rows={rows} onChange={setRows} />
+            <BatchTable rows={rows} onChange={setRows} templateId={batchTemplateId} />
           </div>
           <div className="panel">
             <h2>Print batch</h2>
-            <PrintPanel zpl={batchZpl} disabled={rows.length === 0} />
+            <PrintPanel zpl={batchZpl} disabled={rows.length === 0 || batchHasErrors} />
           </div>
         </div>
       )}

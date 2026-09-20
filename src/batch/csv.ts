@@ -1,5 +1,4 @@
-// CSV import/export for batch labels. Uses the existing schema from
-// data/plate_tags_template.csv: count,QR,line_1..line_7.
+// CSV import/export for batch labels. Schema: count,PrintCode,Code,line_1..line_7.
 
 import Papa from "papaparse";
 import { emptyRow, MAX_LINES, type BatchRow } from "./table";
@@ -15,7 +14,16 @@ function parseCount(v: unknown): number {
   return Number.isFinite(n) && n > 0 ? n : 1;
 }
 
-/** Parse CSV text into batch rows. Tolerant of missing line_* columns. */
+/**
+ * Parse CSV text into batch rows. Tolerant of missing line_* / Code columns.
+ *
+ * Legacy migration: older CSVs (e.g. the original data/plate_tags_template.csv)
+ * use a `QR` column (TRUE/FALSE) instead of `PrintCode`, and have no `Code`
+ * column at all. When `PrintCode` isn't present, `QR` is read instead —
+ * `TRUE`/`FALSE` map straight across, and the absent `Code` column already
+ * defaults to blank (auto-generate), so an old file behaves exactly as it did
+ * before this feature existed.
+ */
 export function parseCsv(text: string): BatchRow[] {
   const result = Papa.parse<Record<string, string>>(text, {
     header: true,
@@ -24,7 +32,12 @@ export function parseCsv(text: string): BatchRow[] {
   return result.data.map((raw) => {
     const row = emptyRow();
     row.count = parseCount(raw.count ?? raw.Count);
-    row.qr = parseBool(raw.QR ?? raw.qr);
+    const hasPrintCode = raw.PrintCode !== undefined || raw.printcode !== undefined;
+    row.printCode = hasPrintCode
+      ? parseBool(raw.PrintCode ?? raw.printcode)
+      : parseBool(raw.QR ?? raw.qr);
+    const code = (raw.Code ?? raw.code ?? "").toString().trim();
+    row.code = code || undefined;
     for (let i = 0; i < MAX_LINES; i++) {
       row.lines[i] = (raw[`line_${i + 1}`] ?? "").toString();
     }
@@ -34,10 +47,16 @@ export function parseCsv(text: string): BatchRow[] {
 
 /** Serialize batch rows back to the canonical CSV schema. */
 export function toCsv(rows: BatchRow[]): string {
-  const header = ["count", "QR", ...Array.from({ length: MAX_LINES }, (_, i) => `line_${i + 1}`)];
+  const header = [
+    "count",
+    "PrintCode",
+    "Code",
+    ...Array.from({ length: MAX_LINES }, (_, i) => `line_${i + 1}`),
+  ];
   const records = rows.map((r) => ({
     count: r.count,
-    QR: r.qr ? "TRUE" : "FALSE",
+    PrintCode: r.printCode ? "TRUE" : "FALSE",
+    Code: r.code ?? "",
     ...Object.fromEntries(r.lines.map((l, i) => [`line_${i + 1}`, l])),
   }));
   return Papa.unparse({ fields: header, data: records });

@@ -228,3 +228,11 @@ table.batch input[type="number"] {
   color: var(--muted);
   margin: 0.25rem 0 0.75rem;
 }
+
+.hint.error {
+  color: var(--danger);
+}
+
+input.invalid {
+  border-color: var(--danger);
+}

@@ -119,7 +119,7 @@ export function LabelPreview({ data }: { data: LabelData }) {
         const field = resolveField(base, data);
 
         if (field.kind === "qr") {
-          if (!data.qr) continue;
+          if (!data.printCode) continue;
           const payload = payloads[field.id];
           if (!payload) continue;
           try {
@@ -141,7 +141,7 @@ export function LabelPreview({ data }: { data: LabelData }) {
             /* ignore preview QR errors */
           }
         } else if (field.kind === "barcode") {
-          if (!data.qr) continue; // same toggle as QR
+          if (!data.printCode) continue; // same toggle as QR
           const payload = payloads[field.id];
           if (!payload) continue;
           const url = renderBarcodeDataUrl(payload, !!field.barcodeShowText);
@@ -154,7 +154,7 @@ export function LabelPreview({ data }: { data: LabelData }) {
             url,
           });
         } else if (field.kind === "pdf417") {
-          if (!data.qr) continue; // same toggle as QR
+          if (!data.printCode) continue; // same toggle as QR
           const payload = payloads[field.id];
           if (!payload) continue;
           const url = renderPdf417DataUrl(payload, field.pdf417Rows ?? 3);

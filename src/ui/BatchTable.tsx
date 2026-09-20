@@ -1,18 +1,25 @@
 import { useRef } from "react";
 import { parseCsv, toCsv } from "../batch/csv";
 import { emptyRow, MAX_LINES, type BatchRow } from "../batch/table";
+import { getTemplate } from "../labels/templates";
+import { validateBatchRow } from "../qr/validation";
 
-// Editable batch grid over the CSV schema (count, QR, line_1..line_7).
+// Editable batch grid over the CSV schema (count, PrintCode, Code, line_1..line_7).
 // Supports CSV import, template download, add/remove rows, and CSV export.
 
 export function BatchTable({
   rows,
   onChange,
+  templateId,
 }: {
   rows: BatchRow[];
   onChange: (rows: BatchRow[]) => void;
+  templateId: string;
 }) {
   const fileRef = useRef<HTMLInputElement>(null);
+  const template = getTemplate(templateId);
+  const rowErrors = rows.map((r) => validateBatchRow(r, template));
+  const hasErrors = rowErrors.some((e) => e != null);
 
   function updateRow(i: number, patch: Partial<BatchRow>) {
     const next = rows.slice();
@@ -48,9 +55,9 @@ export function BatchTable({
   }
 
   const templateCsv =
-    "count,QR," +
+    "count,PrintCode,Code," +
     Array.from({ length: MAX_LINES }, (_, i) => `line_${i + 1}`).join(",") +
-    "\n3,TRUE,P jensen,circle,red,,,,\n";
+    "\n3,TRUE,,P jensen,circle,red,,,,\n";
 
   return (
     <div>
@@ -62,7 +69,12 @@ export function BatchTable({
         <button className="secondary" onClick={() => download("template.csv", templateCsv)}>
           Download template
         </button>
-        <button className="secondary" onClick={() => download("labels.csv", toCsv(rows))}>
+        <button
+          className="secondary"
+          onClick={() => download("labels.csv", toCsv(rows))}
+          disabled={hasErrors}
+          title={hasErrors ? "Fix invalid Code values before exporting" : undefined}
+        >
           Export CSV
         </button>
         <button className="secondary" onClick={() => onChange([...rows, emptyRow()])}>
@@ -76,7 +88,8 @@ export function BatchTable({
             <tr>
               <th>#</th>
               <th>Count</th>
-              <th>QR</th>
+              <th>PrintCode</th>
+              <th>Code</th>
               {Array.from({ length: MAX_LINES }, (_, i) => (
                 <th key={i}>line_{i + 1}</th>
               ))}
@@ -98,8 +111,18 @@ export function BatchTable({
                 <td>
                   <input
                     type="checkbox"
-                    checked={row.qr}
-                    onChange={(e) => updateRow(i, { qr: e.target.checked })}
+                    checked={row.printCode}
+                    onChange={(e) => updateRow(i, { printCode: e.target.checked })}
+                  />
+                </td>
+                <td style={{ minWidth: 140 }}>
+                  <input
+                    type="text"
+                    className={rowErrors[i] ? "invalid" : undefined}
+                    placeholder="auto"
+                    value={row.code ?? ""}
+                    onChange={(e) => updateRow(i, { code: e.target.value })}
+                    title={rowErrors[i] ?? undefined}
                   />
                 </td>
                 {row.lines.map((line, li) => (
