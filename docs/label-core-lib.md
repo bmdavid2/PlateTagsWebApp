@@ -57,7 +57,7 @@ Gaps, most important first:
    code of up to 7 lowercase-alnum characters is 4 columns = 1.35 in; 8 to 11 characters
    is 5 columns = 1.52 in, which on the **microplate** reaches x 1.60 and **overlaps the
    text at x 1.49**; 12 or more is 1.68 in. Digit-heavy strings compact better: `INV-` plus
-   digits stays at 1.35 in up to 13 characters. Bottle has more room (code may reach about 1.88 in).
+   digits stays at 1.35 in up to 13 characters. Bottle has more room (the code may be up to about 1.76 in wide).
 3. **Microplate has a single text line, 0.43 in wide with the code on**: 9 characters at the
    normal size, 11 at the 0.06 in floor (then truncated with a trailing `+`). Name and barcode
    text cannot both appear. With the code off the line is 1.84 in (51 characters at the floor).
