@@ -1,7 +1,7 @@
 // Compose ZPL for one or more labels from a template + resolved field values.
 
 import { getTemplate } from "../labels/templates";
-import { resolveField } from "../labels/resolve";
+import { fieldText, resolveField } from "../labels/resolve";
 import type { LabelData, LabelTemplate } from "../labels/types";
 import { resolveQrPayload } from "../qr/content";
 import {
@@ -124,7 +124,7 @@ function buildBody(template: LabelTemplate, data: LabelData): string {
 
     if (field.kind === "text") {
       // A mirror field echoes another field's value (e.g. the circle cap-label).
-      const text = data.values[field.sourceField ?? field.id] ?? "";
+      const text = fieldText(field, data);
       if (!text.trim()) continue; // skip empty lines
       parts.push(
         textElement({

@@ -177,6 +177,20 @@ export interface LabelData {
    * mode; blank/absent means auto-generate (the previous, only, behavior).
    */
   code?: string;
+  /**
+   * Use `code` exactly as given (trimmed, case preserved) instead of requiring
+   * the template's uuid/shortId shape and lower-casing it. Whether it will
+   * physically print is then checked by `checkLabel` (src/labels/check.ts).
+   * Absent/false keeps the original behavior.
+   */
+  freeCode?: boolean;
+  /**
+   * Text for mirror text fields (those with `sourceField`, e.g. the bottle's
+   * `cap_id`), keyed by field id. When non-blank it replaces the echoed source
+   * field's value, so a cap can show a short human-readable name while
+   * `line_1` carries something else. Absent keeps the echo behavior.
+   */
+  mirrorText?: Record<string, string>;
   /** Number of copies. */
   count: number;
 }

@@ -1,4 +1,6 @@
 import type { FieldSpec, LabelData } from "./types";
+/** The text a text field prints: its own value, its mirrored source's, or a `mirrorText` override. */
+export declare function fieldText(field: FieldSpec, data: LabelData): string;
 /** Empirical average glyph width for ZPL font "0", as a fraction of its point size. */
 export declare const AVG_CHAR_WIDTH_RATIO = 0.6;
 /** Smallest font size (inches) auto-fit will shrink to before falling back to truncation. */

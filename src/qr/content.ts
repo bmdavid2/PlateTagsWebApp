@@ -33,8 +33,9 @@ import type { FieldSpec, LabelData } from "../labels/types";
 export function resolveQrPayload(field: FieldSpec, data: LabelData): string | null {
   const mode = field.qrMode ?? "uuid";
   if (mode === "uuid" || mode === "shortId") {
+    // freeCode: keep the caller's exact string (case included).
     const manual = data.code?.trim();
-    if (manual) return manual.toLowerCase();
+    if (manual) return data.freeCode ? manual : manual.toLowerCase();
     return mode === "uuid" ? uuidv4() : uuidv4().replace(/-/g, "").slice(0, 7);
   }
   const src = field.qrSourceField;

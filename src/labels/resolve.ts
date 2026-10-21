@@ -5,6 +5,13 @@
 
 import type { FieldSpec, LabelData } from "./types";
 
+/** The text a text field prints: its own value, its mirrored source's, or a `mirrorText` override. */
+export function fieldText(field: FieldSpec, data: LabelData): string {
+  const alt = field.sourceField ? data.mirrorText?.[field.id] : undefined;
+  if (alt != null && alt.trim()) return alt;
+  return data.values[field.sourceField ?? field.id] ?? "";
+}
+
 /** Empirical average glyph width for ZPL font "0", as a fraction of its point size. */
 export const AVG_CHAR_WIDTH_RATIO = 0.6;
 
@@ -61,7 +68,7 @@ export function resolveField(base: FieldSpec, data: LabelData): FieldSpec {
 
   if (field.kind === "text" && field.maxWidthIn != null) {
     if (!sizeOverridden) {
-      const text = data.values[base.sourceField ?? base.id] ?? "";
+      const text = fieldText(base, data);
       field = { ...field, size: fitFontSize(text, field.size, field.maxWidthIn) };
     }
     field = { ...field, maxChars: estimateMaxChars(field.maxWidthIn, field.size) };

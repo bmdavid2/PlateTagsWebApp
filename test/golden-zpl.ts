@@ -91,15 +91,35 @@ for (const t of TEMPLATES) {
   out.push(buildBatchZpl(rows.map((r) => rowToLabelData(t.id, r))));
 }
 
+// Second matrix: freeCode / mirrorText / checkLabel (added after the original goldens;
+// kept in its own file so zpl.golden.txt still proves the original behavior is untouched).
+const { checkLabel } = impl ?? (await import("../src/labels/check.ts"));
+const out2: string[] = [];
+const FREE = ["INV-000123", "Abc-0042", "INV-AB12CD34EF", "Tris/NaCl-0042-LONGER-CODE-XYZ", "x^y", "héllo", "8f14e45f-ceea-467f-a0e6-b906e4a5d7c1"];
+const CAPS = [undefined, "Tris/NaCl", "A very long cap name here"];
+for (const t of TEMPLATES) {
+  const textIds = t.fields.filter((f) => f.kind === "text" && !f.sourceField).map((f) => f.id);
+  for (const code of FREE) for (const cap of CAPS) for (const printCode of [true, false]) {
+    const values = Object.fromEntries(textIds.map((id, i) => [id, i === 0 ? "INV-000123" : "Tris 50 mM, NaCl 150 mM, pH 7.4"]));
+    const d: LabelData = { templateId: t.id, values, overrides: {}, printCode, code, freeCode: true, mirrorText: cap ? { cap_id: cap } : undefined, count: 1 };
+    out2.push(`### ${t.id} free code=${code} cap=${cap ?? "-"} printCode=${printCode}`);
+    out2.push(buildLabelZpl(d));
+    out2.push(JSON.stringify(checkLabel(d)));
+  }
+}
+const text2 = out2.join("\n") + "\n";
 const text = out.join("\n") + "\n";
 const here = dirname(fileURLToPath(import.meta.url));
 const file = resolve(here, "golden/zpl.golden.txt");
 if (process.argv.includes("--update")) {
   mkdirSync(dirname(file), { recursive: true });
   writeFileSync(file, text);
+  writeFileSync(resolve(here, "golden/zpl-free.golden.txt"), text2);
   console.log(`wrote ${file} (${text.length} bytes, ${out.length / 2} cases)`);
 } else {
   if (!existsSync(file)) { console.error("no golden file; run with --update"); process.exit(2); }
+  const want2 = readFileSync(resolve(here, "golden/zpl-free.golden.txt"), "utf8");
+  if (want2 !== text2) { console.error("zpl-free.golden.txt MISMATCH"); process.exit(1); }
   const want = readFileSync(file, "utf8");
   if (want === text) console.log(`OK: identical (${text.length} bytes, ${out.length / 2} cases)`);
   else {

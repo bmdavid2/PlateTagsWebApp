@@ -122,3 +122,26 @@ For the bottle template the gaps narrow to:
   ID/barcode in `line_1`, name in `line_2` (24 / ~48), composition in `line_3`, and
   date, preparer, expiry and storage merged into `line_4` (29 / ~48). Four lines is the limit.
 - The cap label would show `line_1` and the QR; the body PDF417 repeats the same code.
+
+## Flexible codes and cap text (added after the fit review)
+
+Additive and opt-in; with the new fields absent, output is unchanged (`test/golden/zpl.golden.txt`
+is byte-identical, SHA-1 `20d6ab92…`). The app's `dist/` JS hash changes because the shared
+source files were edited, but ZPL for every existing input is the same.
+
+- `LabelData.freeCode: true` — `code` is used exactly as given (trimmed, case kept), no
+  uuid/hex shape rule. Printing is not blocked by the core; call `checkLabel(data)`.
+- `LabelData.mirrorText: { cap_id: "Tris/NaCl" }` — text for mirror fields (bottle `cap_id`).
+  Blank/absent keeps the echo of `line_1`, so PlateTagsWebApp behaves as before. The app's
+  on-screen preview does not read `mirrorText` (it still echoes `line_1`); inventory should
+  use its own preview or `buildLabelZpl`.
+- `checkLabel(data): {level, field, message}[]` — `error` = will not print/scan correctly
+  (non-ASCII, `^`/`~`, PDF417 needs more rows than the label has, code wider than the free
+  space beside it, QR outside the cap circle); `warn` = text longer than `maxChars` at the
+  smallest font (cut with `+`). Uses the real bwip-js module counts and the template's
+  regions and neighbouring fields; margins are 0.08 in, gap 0.02 in. Example on the bottle:
+  `INV-AB12CD34EF` passes; a 30-character code fails (PDF417 1.85 in vs 1.80 free, and the
+  QR does not fit the cap circle). The practical bottle limit is therefore about 14 to 20
+  characters depending on content.
+- `test/golden/zpl-free.golden.txt` records ZPL plus `checkLabel` results for these cases.
+Not verified by a physical print or a scan test; limits are computed geometry.

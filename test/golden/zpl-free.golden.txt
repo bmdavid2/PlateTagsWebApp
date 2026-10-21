@@ -1,0 +1,378 @@
+### cryotube free code=INV-000123 cap=- printCode=true
+^XA^POI^PW305^LL152^LH0,0^FO116,16^A0N,18,18^FDINV-000123^FS^FO116,41^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO116,65^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO116,89^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO116,114^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO16,16^BQN,2,3^FDMA,INV-000123^FS^XZ
+[{"level":"warn","field":"line_2","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"},{"level":"warn","field":"line_3","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"},{"level":"warn","field":"line_4","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"},{"level":"warn","field":"line_5","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"}]
+### cryotube free code=INV-000123 cap=- printCode=false
+^XA^POI^PW305^LL152^LH0,0^FO16,16^A0N,18,18^FDINV-000123^FS^FO16,41^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO16,65^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO16,89^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO16,114^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^XZ
+[]
+### cryotube free code=INV-000123 cap=Tris/NaCl printCode=true
+^XA^POI^PW305^LL152^LH0,0^FO116,16^A0N,18,18^FDINV-000123^FS^FO116,41^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO116,65^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO116,89^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO116,114^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO16,16^BQN,2,3^FDMA,INV-000123^FS^XZ
+[{"level":"warn","field":"line_2","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"},{"level":"warn","field":"line_3","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"},{"level":"warn","field":"line_4","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"},{"level":"warn","field":"line_5","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"}]
+### cryotube free code=INV-000123 cap=Tris/NaCl printCode=false
+^XA^POI^PW305^LL152^LH0,0^FO16,16^A0N,18,18^FDINV-000123^FS^FO16,41^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO16,65^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO16,89^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO16,114^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^XZ
+[]
+### cryotube free code=INV-000123 cap=A very long cap name here printCode=true
+^XA^POI^PW305^LL152^LH0,0^FO116,16^A0N,18,18^FDINV-000123^FS^FO116,41^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO116,65^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO116,89^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO116,114^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO16,16^BQN,2,3^FDMA,INV-000123^FS^XZ
+[{"level":"warn","field":"line_2","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"},{"level":"warn","field":"line_3","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"},{"level":"warn","field":"line_4","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"},{"level":"warn","field":"line_5","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"}]
+### cryotube free code=INV-000123 cap=A very long cap name here printCode=false
+^XA^POI^PW305^LL152^LH0,0^FO16,16^A0N,18,18^FDINV-000123^FS^FO16,41^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO16,65^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO16,89^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO16,114^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^XZ
+[]
+### cryotube free code=Abc-0042 cap=- printCode=true
+^XA^POI^PW305^LL152^LH0,0^FO116,16^A0N,18,18^FDINV-000123^FS^FO116,41^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO116,65^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO116,89^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO116,114^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO16,16^BQN,2,3^FDMA,Abc-0042^FS^XZ
+[{"level":"warn","field":"line_2","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"},{"level":"warn","field":"line_3","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"},{"level":"warn","field":"line_4","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"},{"level":"warn","field":"line_5","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"}]
+### cryotube free code=Abc-0042 cap=- printCode=false
+^XA^POI^PW305^LL152^LH0,0^FO16,16^A0N,18,18^FDINV-000123^FS^FO16,41^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO16,65^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO16,89^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO16,114^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^XZ
+[]
+### cryotube free code=Abc-0042 cap=Tris/NaCl printCode=true
+^XA^POI^PW305^LL152^LH0,0^FO116,16^A0N,18,18^FDINV-000123^FS^FO116,41^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO116,65^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO116,89^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO116,114^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO16,16^BQN,2,3^FDMA,Abc-0042^FS^XZ
+[{"level":"warn","field":"line_2","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"},{"level":"warn","field":"line_3","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"},{"level":"warn","field":"line_4","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"},{"level":"warn","field":"line_5","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"}]
+### cryotube free code=Abc-0042 cap=Tris/NaCl printCode=false
+^XA^POI^PW305^LL152^LH0,0^FO16,16^A0N,18,18^FDINV-000123^FS^FO16,41^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO16,65^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO16,89^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO16,114^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^XZ
+[]
+### cryotube free code=Abc-0042 cap=A very long cap name here printCode=true
+^XA^POI^PW305^LL152^LH0,0^FO116,16^A0N,18,18^FDINV-000123^FS^FO116,41^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO116,65^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO116,89^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO116,114^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO16,16^BQN,2,3^FDMA,Abc-0042^FS^XZ
+[{"level":"warn","field":"line_2","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"},{"level":"warn","field":"line_3","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"},{"level":"warn","field":"line_4","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"},{"level":"warn","field":"line_5","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"}]
+### cryotube free code=Abc-0042 cap=A very long cap name here printCode=false
+^XA^POI^PW305^LL152^LH0,0^FO16,16^A0N,18,18^FDINV-000123^FS^FO16,41^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO16,65^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO16,89^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO16,114^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^XZ
+[]
+### cryotube free code=INV-AB12CD34EF cap=- printCode=true
+^XA^POI^PW305^LL152^LH0,0^FO116,16^A0N,18,18^FDINV-000123^FS^FO116,41^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO116,65^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO116,89^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO116,114^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO16,16^BQN,2,3^FDMA,INV-AB12CD34EF^FS^XZ
+[{"level":"warn","field":"line_2","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"},{"level":"warn","field":"line_3","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"},{"level":"warn","field":"line_4","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"},{"level":"warn","field":"line_5","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"}]
+### cryotube free code=INV-AB12CD34EF cap=- printCode=false
+^XA^POI^PW305^LL152^LH0,0^FO16,16^A0N,18,18^FDINV-000123^FS^FO16,41^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO16,65^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO16,89^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO16,114^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^XZ
+[]
+### cryotube free code=INV-AB12CD34EF cap=Tris/NaCl printCode=true
+^XA^POI^PW305^LL152^LH0,0^FO116,16^A0N,18,18^FDINV-000123^FS^FO116,41^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO116,65^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO116,89^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO116,114^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO16,16^BQN,2,3^FDMA,INV-AB12CD34EF^FS^XZ
+[{"level":"warn","field":"line_2","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"},{"level":"warn","field":"line_3","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"},{"level":"warn","field":"line_4","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"},{"level":"warn","field":"line_5","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"}]
+### cryotube free code=INV-AB12CD34EF cap=Tris/NaCl printCode=false
+^XA^POI^PW305^LL152^LH0,0^FO16,16^A0N,18,18^FDINV-000123^FS^FO16,41^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO16,65^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO16,89^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO16,114^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^XZ
+[]
+### cryotube free code=INV-AB12CD34EF cap=A very long cap name here printCode=true
+^XA^POI^PW305^LL152^LH0,0^FO116,16^A0N,18,18^FDINV-000123^FS^FO116,41^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO116,65^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO116,89^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO116,114^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO16,16^BQN,2,3^FDMA,INV-AB12CD34EF^FS^XZ
+[{"level":"warn","field":"line_2","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"},{"level":"warn","field":"line_3","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"},{"level":"warn","field":"line_4","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"},{"level":"warn","field":"line_5","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"}]
+### cryotube free code=INV-AB12CD34EF cap=A very long cap name here printCode=false
+^XA^POI^PW305^LL152^LH0,0^FO16,16^A0N,18,18^FDINV-000123^FS^FO16,41^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO16,65^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO16,89^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO16,114^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^XZ
+[]
+### cryotube free code=Tris/NaCl-0042-LONGER-CODE-XYZ cap=- printCode=true
+^XA^POI^PW305^LL152^LH0,0^FO116,16^A0N,18,18^FDINV-000123^FS^FO116,41^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO116,65^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO116,89^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO116,114^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO16,16^BQN,2,3^FDMA,Tris/NaCl-0042-LONGER-CODE-XYZ^FS^XZ
+[{"level":"warn","field":"line_2","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"},{"level":"warn","field":"line_3","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"},{"level":"warn","field":"line_4","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"},{"level":"warn","field":"line_5","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"}]
+### cryotube free code=Tris/NaCl-0042-LONGER-CODE-XYZ cap=- printCode=false
+^XA^POI^PW305^LL152^LH0,0^FO16,16^A0N,18,18^FDINV-000123^FS^FO16,41^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO16,65^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO16,89^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO16,114^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^XZ
+[]
+### cryotube free code=Tris/NaCl-0042-LONGER-CODE-XYZ cap=Tris/NaCl printCode=true
+^XA^POI^PW305^LL152^LH0,0^FO116,16^A0N,18,18^FDINV-000123^FS^FO116,41^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO116,65^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO116,89^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO116,114^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO16,16^BQN,2,3^FDMA,Tris/NaCl-0042-LONGER-CODE-XYZ^FS^XZ
+[{"level":"warn","field":"line_2","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"},{"level":"warn","field":"line_3","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"},{"level":"warn","field":"line_4","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"},{"level":"warn","field":"line_5","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"}]
+### cryotube free code=Tris/NaCl-0042-LONGER-CODE-XYZ cap=Tris/NaCl printCode=false
+^XA^POI^PW305^LL152^LH0,0^FO16,16^A0N,18,18^FDINV-000123^FS^FO16,41^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO16,65^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO16,89^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO16,114^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^XZ
+[]
+### cryotube free code=Tris/NaCl-0042-LONGER-CODE-XYZ cap=A very long cap name here printCode=true
+^XA^POI^PW305^LL152^LH0,0^FO116,16^A0N,18,18^FDINV-000123^FS^FO116,41^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO116,65^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO116,89^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO116,114^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO16,16^BQN,2,3^FDMA,Tris/NaCl-0042-LONGER-CODE-XYZ^FS^XZ
+[{"level":"warn","field":"line_2","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"},{"level":"warn","field":"line_3","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"},{"level":"warn","field":"line_4","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"},{"level":"warn","field":"line_5","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"}]
+### cryotube free code=Tris/NaCl-0042-LONGER-CODE-XYZ cap=A very long cap name here printCode=false
+^XA^POI^PW305^LL152^LH0,0^FO16,16^A0N,18,18^FDINV-000123^FS^FO16,41^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO16,65^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO16,89^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO16,114^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^XZ
+[]
+### cryotube free code=x^y cap=- printCode=true
+^XA^POI^PW305^LL152^LH0,0^FO116,16^A0N,18,18^FDINV-000123^FS^FO116,41^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO116,65^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO116,89^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO116,114^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO16,16^BQN,2,3^FDMA,x y^FS^XZ
+[{"level":"warn","field":"line_2","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"},{"level":"warn","field":"line_3","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"},{"level":"warn","field":"line_4","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"},{"level":"warn","field":"line_5","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"},{"level":"error","field":"code","message":"contains ^ or ~, which cannot be printed"}]
+### cryotube free code=x^y cap=- printCode=false
+^XA^POI^PW305^LL152^LH0,0^FO16,16^A0N,18,18^FDINV-000123^FS^FO16,41^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO16,65^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO16,89^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO16,114^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^XZ
+[]
+### cryotube free code=x^y cap=Tris/NaCl printCode=true
+^XA^POI^PW305^LL152^LH0,0^FO116,16^A0N,18,18^FDINV-000123^FS^FO116,41^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO116,65^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO116,89^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO116,114^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO16,16^BQN,2,3^FDMA,x y^FS^XZ
+[{"level":"warn","field":"line_2","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"},{"level":"warn","field":"line_3","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"},{"level":"warn","field":"line_4","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"},{"level":"warn","field":"line_5","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"},{"level":"error","field":"code","message":"contains ^ or ~, which cannot be printed"}]
+### cryotube free code=x^y cap=Tris/NaCl printCode=false
+^XA^POI^PW305^LL152^LH0,0^FO16,16^A0N,18,18^FDINV-000123^FS^FO16,41^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO16,65^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO16,89^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO16,114^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^XZ
+[]
+### cryotube free code=x^y cap=A very long cap name here printCode=true
+^XA^POI^PW305^LL152^LH0,0^FO116,16^A0N,18,18^FDINV-000123^FS^FO116,41^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO116,65^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO116,89^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO116,114^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO16,16^BQN,2,3^FDMA,x y^FS^XZ
+[{"level":"warn","field":"line_2","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"},{"level":"warn","field":"line_3","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"},{"level":"warn","field":"line_4","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"},{"level":"warn","field":"line_5","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"},{"level":"error","field":"code","message":"contains ^ or ~, which cannot be printed"}]
+### cryotube free code=x^y cap=A very long cap name here printCode=false
+^XA^POI^PW305^LL152^LH0,0^FO16,16^A0N,18,18^FDINV-000123^FS^FO16,41^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO16,65^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO16,89^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO16,114^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^XZ
+[]
+### cryotube free code=héllo cap=- printCode=true
+^XA^POI^PW305^LL152^LH0,0^FO116,16^A0N,18,18^FDINV-000123^FS^FO116,41^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO116,65^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO116,89^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO116,114^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO16,16^BQN,2,3^FDMA,héllo^FS^XZ
+[{"level":"warn","field":"line_2","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"},{"level":"warn","field":"line_3","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"},{"level":"warn","field":"line_4","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"},{"level":"warn","field":"line_5","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"},{"level":"error","field":"code","message":"contains characters outside printable ASCII"}]
+### cryotube free code=héllo cap=- printCode=false
+^XA^POI^PW305^LL152^LH0,0^FO16,16^A0N,18,18^FDINV-000123^FS^FO16,41^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO16,65^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO16,89^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO16,114^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^XZ
+[]
+### cryotube free code=héllo cap=Tris/NaCl printCode=true
+^XA^POI^PW305^LL152^LH0,0^FO116,16^A0N,18,18^FDINV-000123^FS^FO116,41^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO116,65^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO116,89^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO116,114^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO16,16^BQN,2,3^FDMA,héllo^FS^XZ
+[{"level":"warn","field":"line_2","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"},{"level":"warn","field":"line_3","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"},{"level":"warn","field":"line_4","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"},{"level":"warn","field":"line_5","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"},{"level":"error","field":"code","message":"contains characters outside printable ASCII"}]
+### cryotube free code=héllo cap=Tris/NaCl printCode=false
+^XA^POI^PW305^LL152^LH0,0^FO16,16^A0N,18,18^FDINV-000123^FS^FO16,41^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO16,65^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO16,89^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO16,114^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^XZ
+[]
+### cryotube free code=héllo cap=A very long cap name here printCode=true
+^XA^POI^PW305^LL152^LH0,0^FO116,16^A0N,18,18^FDINV-000123^FS^FO116,41^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO116,65^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO116,89^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO116,114^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO16,16^BQN,2,3^FDMA,héllo^FS^XZ
+[{"level":"warn","field":"line_2","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"},{"level":"warn","field":"line_3","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"},{"level":"warn","field":"line_4","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"},{"level":"warn","field":"line_5","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"},{"level":"error","field":"code","message":"contains characters outside printable ASCII"}]
+### cryotube free code=héllo cap=A very long cap name here printCode=false
+^XA^POI^PW305^LL152^LH0,0^FO16,16^A0N,18,18^FDINV-000123^FS^FO16,41^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO16,65^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO16,89^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO16,114^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^XZ
+[]
+### cryotube free code=8f14e45f-ceea-467f-a0e6-b906e4a5d7c1 cap=- printCode=true
+^XA^POI^PW305^LL152^LH0,0^FO116,16^A0N,18,18^FDINV-000123^FS^FO116,41^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO116,65^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO116,89^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO116,114^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO16,16^BQN,2,3^FDMA,8f14e45f-ceea-467f-a0e6-b906e4a5d7c1^FS^XZ
+[{"level":"warn","field":"line_2","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"},{"level":"warn","field":"line_3","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"},{"level":"warn","field":"line_4","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"},{"level":"warn","field":"line_5","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"}]
+### cryotube free code=8f14e45f-ceea-467f-a0e6-b906e4a5d7c1 cap=- printCode=false
+^XA^POI^PW305^LL152^LH0,0^FO16,16^A0N,18,18^FDINV-000123^FS^FO16,41^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO16,65^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO16,89^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO16,114^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^XZ
+[]
+### cryotube free code=8f14e45f-ceea-467f-a0e6-b906e4a5d7c1 cap=Tris/NaCl printCode=true
+^XA^POI^PW305^LL152^LH0,0^FO116,16^A0N,18,18^FDINV-000123^FS^FO116,41^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO116,65^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO116,89^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO116,114^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO16,16^BQN,2,3^FDMA,8f14e45f-ceea-467f-a0e6-b906e4a5d7c1^FS^XZ
+[{"level":"warn","field":"line_2","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"},{"level":"warn","field":"line_3","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"},{"level":"warn","field":"line_4","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"},{"level":"warn","field":"line_5","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"}]
+### cryotube free code=8f14e45f-ceea-467f-a0e6-b906e4a5d7c1 cap=Tris/NaCl printCode=false
+^XA^POI^PW305^LL152^LH0,0^FO16,16^A0N,18,18^FDINV-000123^FS^FO16,41^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO16,65^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO16,89^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO16,114^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^XZ
+[]
+### cryotube free code=8f14e45f-ceea-467f-a0e6-b906e4a5d7c1 cap=A very long cap name here printCode=true
+^XA^POI^PW305^LL152^LH0,0^FO116,16^A0N,18,18^FDINV-000123^FS^FO116,41^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO116,65^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO116,89^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO116,114^A0N,12,12^FDTris 50 mM, NaCl 150 m+^FS^FO16,16^BQN,2,3^FDMA,8f14e45f-ceea-467f-a0e6-b906e4a5d7c1^FS^XZ
+[{"level":"warn","field":"line_2","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"},{"level":"warn","field":"line_3","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"},{"level":"warn","field":"line_4","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"},{"level":"warn","field":"line_5","message":"\"Tris 50 mM, NaCl 150 mM, pH 7.4\" is 31 characters; at most 23 fit (it will be cut with \"+\")"}]
+### cryotube free code=8f14e45f-ceea-467f-a0e6-b906e4a5d7c1 cap=A very long cap name here printCode=false
+^XA^POI^PW305^LL152^LH0,0^FO16,16^A0N,18,18^FDINV-000123^FS^FO16,41^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO16,65^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO16,89^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO16,114^A0N,15,15^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^XZ
+[]
+### microplate free code=INV-000123 cap=- printCode=true
+^XA^PW406^LL51^LH0,0^BY2^FO16,6^B7N,9,0,4,4,N^FDINV-000123^FS^FO302,10^A0N,15,15^FDINV-0001+^FS^XZ
+[{"level":"warn","field":"line_1","message":"\"INV-000123\" is 10 characters; at most 9 fit (it will be cut with \"+\")"}]
+### microplate free code=INV-000123 cap=- printCode=false
+^XA^PW406^LL51^LH0,0^FO16,10^A0N,24,24^FDINV-000123^FS^XZ
+[]
+### microplate free code=INV-000123 cap=Tris/NaCl printCode=true
+^XA^PW406^LL51^LH0,0^BY2^FO16,6^B7N,9,0,4,4,N^FDINV-000123^FS^FO302,10^A0N,15,15^FDINV-0001+^FS^XZ
+[{"level":"warn","field":"line_1","message":"\"INV-000123\" is 10 characters; at most 9 fit (it will be cut with \"+\")"}]
+### microplate free code=INV-000123 cap=Tris/NaCl printCode=false
+^XA^PW406^LL51^LH0,0^FO16,10^A0N,24,24^FDINV-000123^FS^XZ
+[]
+### microplate free code=INV-000123 cap=A very long cap name here printCode=true
+^XA^PW406^LL51^LH0,0^BY2^FO16,6^B7N,9,0,4,4,N^FDINV-000123^FS^FO302,10^A0N,15,15^FDINV-0001+^FS^XZ
+[{"level":"warn","field":"line_1","message":"\"INV-000123\" is 10 characters; at most 9 fit (it will be cut with \"+\")"}]
+### microplate free code=INV-000123 cap=A very long cap name here printCode=false
+^XA^PW406^LL51^LH0,0^FO16,10^A0N,24,24^FDINV-000123^FS^XZ
+[]
+### microplate free code=Abc-0042 cap=- printCode=true
+^XA^PW406^LL51^LH0,0^BY2^FO16,6^B7N,9,0,4,4,N^FDAbc-0042^FS^FO302,10^A0N,15,15^FDINV-0001+^FS^XZ
+[{"level":"warn","field":"line_1","message":"\"INV-000123\" is 10 characters; at most 9 fit (it will be cut with \"+\")"}]
+### microplate free code=Abc-0042 cap=- printCode=false
+^XA^PW406^LL51^LH0,0^FO16,10^A0N,24,24^FDINV-000123^FS^XZ
+[]
+### microplate free code=Abc-0042 cap=Tris/NaCl printCode=true
+^XA^PW406^LL51^LH0,0^BY2^FO16,6^B7N,9,0,4,4,N^FDAbc-0042^FS^FO302,10^A0N,15,15^FDINV-0001+^FS^XZ
+[{"level":"warn","field":"line_1","message":"\"INV-000123\" is 10 characters; at most 9 fit (it will be cut with \"+\")"}]
+### microplate free code=Abc-0042 cap=Tris/NaCl printCode=false
+^XA^PW406^LL51^LH0,0^FO16,10^A0N,24,24^FDINV-000123^FS^XZ
+[]
+### microplate free code=Abc-0042 cap=A very long cap name here printCode=true
+^XA^PW406^LL51^LH0,0^BY2^FO16,6^B7N,9,0,4,4,N^FDAbc-0042^FS^FO302,10^A0N,15,15^FDINV-0001+^FS^XZ
+[{"level":"warn","field":"line_1","message":"\"INV-000123\" is 10 characters; at most 9 fit (it will be cut with \"+\")"}]
+### microplate free code=Abc-0042 cap=A very long cap name here printCode=false
+^XA^PW406^LL51^LH0,0^FO16,10^A0N,24,24^FDINV-000123^FS^XZ
+[]
+### microplate free code=INV-AB12CD34EF cap=- printCode=true
+^XA^PW406^LL51^LH0,0^BY2^FO16,6^B7N,9,0,5,4,N^FDINV-AB12CD34EF^FS^FO302,10^A0N,15,15^FDINV-0001+^FS^XZ
+[{"level":"warn","field":"line_1","message":"\"INV-000123\" is 10 characters; at most 9 fit (it will be cut with \"+\")"},{"level":"error","field":"barcode","message":"code is 1.52 in wide but only 1.39 in is free"}]
+### microplate free code=INV-AB12CD34EF cap=- printCode=false
+^XA^PW406^LL51^LH0,0^FO16,10^A0N,24,24^FDINV-000123^FS^XZ
+[]
+### microplate free code=INV-AB12CD34EF cap=Tris/NaCl printCode=true
+^XA^PW406^LL51^LH0,0^BY2^FO16,6^B7N,9,0,5,4,N^FDINV-AB12CD34EF^FS^FO302,10^A0N,15,15^FDINV-0001+^FS^XZ
+[{"level":"warn","field":"line_1","message":"\"INV-000123\" is 10 characters; at most 9 fit (it will be cut with \"+\")"},{"level":"error","field":"barcode","message":"code is 1.52 in wide but only 1.39 in is free"}]
+### microplate free code=INV-AB12CD34EF cap=Tris/NaCl printCode=false
+^XA^PW406^LL51^LH0,0^FO16,10^A0N,24,24^FDINV-000123^FS^XZ
+[]
+### microplate free code=INV-AB12CD34EF cap=A very long cap name here printCode=true
+^XA^PW406^LL51^LH0,0^BY2^FO16,6^B7N,9,0,5,4,N^FDINV-AB12CD34EF^FS^FO302,10^A0N,15,15^FDINV-0001+^FS^XZ
+[{"level":"warn","field":"line_1","message":"\"INV-000123\" is 10 characters; at most 9 fit (it will be cut with \"+\")"},{"level":"error","field":"barcode","message":"code is 1.52 in wide but only 1.39 in is free"}]
+### microplate free code=INV-AB12CD34EF cap=A very long cap name here printCode=false
+^XA^PW406^LL51^LH0,0^FO16,10^A0N,24,24^FDINV-000123^FS^XZ
+[]
+### microplate free code=Tris/NaCl-0042-LONGER-CODE-XYZ cap=- printCode=true
+^XA^PW406^LL51^LH0,0^BY2^FO16,6^B7N,9,0,7,4,N^FDTris/NaCl-0042-LONGER-CODE-XYZ^FS^FO302,10^A0N,15,15^FDINV-0001+^FS^XZ
+[{"level":"warn","field":"line_1","message":"\"INV-000123\" is 10 characters; at most 9 fit (it will be cut with \"+\")"},{"level":"error","field":"barcode","message":"code is 1.85 in wide but only 1.39 in is free"}]
+### microplate free code=Tris/NaCl-0042-LONGER-CODE-XYZ cap=- printCode=false
+^XA^PW406^LL51^LH0,0^FO16,10^A0N,24,24^FDINV-000123^FS^XZ
+[]
+### microplate free code=Tris/NaCl-0042-LONGER-CODE-XYZ cap=Tris/NaCl printCode=true
+^XA^PW406^LL51^LH0,0^BY2^FO16,6^B7N,9,0,7,4,N^FDTris/NaCl-0042-LONGER-CODE-XYZ^FS^FO302,10^A0N,15,15^FDINV-0001+^FS^XZ
+[{"level":"warn","field":"line_1","message":"\"INV-000123\" is 10 characters; at most 9 fit (it will be cut with \"+\")"},{"level":"error","field":"barcode","message":"code is 1.85 in wide but only 1.39 in is free"}]
+### microplate free code=Tris/NaCl-0042-LONGER-CODE-XYZ cap=Tris/NaCl printCode=false
+^XA^PW406^LL51^LH0,0^FO16,10^A0N,24,24^FDINV-000123^FS^XZ
+[]
+### microplate free code=Tris/NaCl-0042-LONGER-CODE-XYZ cap=A very long cap name here printCode=true
+^XA^PW406^LL51^LH0,0^BY2^FO16,6^B7N,9,0,7,4,N^FDTris/NaCl-0042-LONGER-CODE-XYZ^FS^FO302,10^A0N,15,15^FDINV-0001+^FS^XZ
+[{"level":"warn","field":"line_1","message":"\"INV-000123\" is 10 characters; at most 9 fit (it will be cut with \"+\")"},{"level":"error","field":"barcode","message":"code is 1.85 in wide but only 1.39 in is free"}]
+### microplate free code=Tris/NaCl-0042-LONGER-CODE-XYZ cap=A very long cap name here printCode=false
+^XA^PW406^LL51^LH0,0^FO16,10^A0N,24,24^FDINV-000123^FS^XZ
+[]
+### microplate free code=x^y cap=- printCode=true
+^XA^PW406^LL51^LH0,0^BY2^FO16,6^B7N,9,0,4,4,N^FDx y^FS^FO302,10^A0N,15,15^FDINV-0001+^FS^XZ
+[{"level":"warn","field":"line_1","message":"\"INV-000123\" is 10 characters; at most 9 fit (it will be cut with \"+\")"},{"level":"error","field":"code","message":"contains ^ or ~, which cannot be printed"}]
+### microplate free code=x^y cap=- printCode=false
+^XA^PW406^LL51^LH0,0^FO16,10^A0N,24,24^FDINV-000123^FS^XZ
+[]
+### microplate free code=x^y cap=Tris/NaCl printCode=true
+^XA^PW406^LL51^LH0,0^BY2^FO16,6^B7N,9,0,4,4,N^FDx y^FS^FO302,10^A0N,15,15^FDINV-0001+^FS^XZ
+[{"level":"warn","field":"line_1","message":"\"INV-000123\" is 10 characters; at most 9 fit (it will be cut with \"+\")"},{"level":"error","field":"code","message":"contains ^ or ~, which cannot be printed"}]
+### microplate free code=x^y cap=Tris/NaCl printCode=false
+^XA^PW406^LL51^LH0,0^FO16,10^A0N,24,24^FDINV-000123^FS^XZ
+[]
+### microplate free code=x^y cap=A very long cap name here printCode=true
+^XA^PW406^LL51^LH0,0^BY2^FO16,6^B7N,9,0,4,4,N^FDx y^FS^FO302,10^A0N,15,15^FDINV-0001+^FS^XZ
+[{"level":"warn","field":"line_1","message":"\"INV-000123\" is 10 characters; at most 9 fit (it will be cut with \"+\")"},{"level":"error","field":"code","message":"contains ^ or ~, which cannot be printed"}]
+### microplate free code=x^y cap=A very long cap name here printCode=false
+^XA^PW406^LL51^LH0,0^FO16,10^A0N,24,24^FDINV-000123^FS^XZ
+[]
+### microplate free code=héllo cap=- printCode=true
+^XA^PW406^LL51^LH0,0^BY2^FO16,6^B7N,9,0,4,4,N^FDhéllo^FS^FO302,10^A0N,15,15^FDINV-0001+^FS^XZ
+[{"level":"warn","field":"line_1","message":"\"INV-000123\" is 10 characters; at most 9 fit (it will be cut with \"+\")"},{"level":"error","field":"code","message":"contains characters outside printable ASCII"}]
+### microplate free code=héllo cap=- printCode=false
+^XA^PW406^LL51^LH0,0^FO16,10^A0N,24,24^FDINV-000123^FS^XZ
+[]
+### microplate free code=héllo cap=Tris/NaCl printCode=true
+^XA^PW406^LL51^LH0,0^BY2^FO16,6^B7N,9,0,4,4,N^FDhéllo^FS^FO302,10^A0N,15,15^FDINV-0001+^FS^XZ
+[{"level":"warn","field":"line_1","message":"\"INV-000123\" is 10 characters; at most 9 fit (it will be cut with \"+\")"},{"level":"error","field":"code","message":"contains characters outside printable ASCII"}]
+### microplate free code=héllo cap=Tris/NaCl printCode=false
+^XA^PW406^LL51^LH0,0^FO16,10^A0N,24,24^FDINV-000123^FS^XZ
+[]
+### microplate free code=héllo cap=A very long cap name here printCode=true
+^XA^PW406^LL51^LH0,0^BY2^FO16,6^B7N,9,0,4,4,N^FDhéllo^FS^FO302,10^A0N,15,15^FDINV-0001+^FS^XZ
+[{"level":"warn","field":"line_1","message":"\"INV-000123\" is 10 characters; at most 9 fit (it will be cut with \"+\")"},{"level":"error","field":"code","message":"contains characters outside printable ASCII"}]
+### microplate free code=héllo cap=A very long cap name here printCode=false
+^XA^PW406^LL51^LH0,0^FO16,10^A0N,24,24^FDINV-000123^FS^XZ
+[]
+### microplate free code=8f14e45f-ceea-467f-a0e6-b906e4a5d7c1 cap=- printCode=true
+^XA^PW406^LL51^LH0,0^BY2^FO16,6^B7N,9,0,10,4,N^FD8f14e45f-ceea-467f-a0e6-b906e4a5d7c1^FS^FO302,10^A0N,15,15^FDINV-0001+^FS^XZ
+[{"level":"warn","field":"line_1","message":"\"INV-000123\" is 10 characters; at most 9 fit (it will be cut with \"+\")"},{"level":"error","field":"barcode","message":"code is 2.35 in wide but only 1.39 in is free"}]
+### microplate free code=8f14e45f-ceea-467f-a0e6-b906e4a5d7c1 cap=- printCode=false
+^XA^PW406^LL51^LH0,0^FO16,10^A0N,24,24^FDINV-000123^FS^XZ
+[]
+### microplate free code=8f14e45f-ceea-467f-a0e6-b906e4a5d7c1 cap=Tris/NaCl printCode=true
+^XA^PW406^LL51^LH0,0^BY2^FO16,6^B7N,9,0,10,4,N^FD8f14e45f-ceea-467f-a0e6-b906e4a5d7c1^FS^FO302,10^A0N,15,15^FDINV-0001+^FS^XZ
+[{"level":"warn","field":"line_1","message":"\"INV-000123\" is 10 characters; at most 9 fit (it will be cut with \"+\")"},{"level":"error","field":"barcode","message":"code is 2.35 in wide but only 1.39 in is free"}]
+### microplate free code=8f14e45f-ceea-467f-a0e6-b906e4a5d7c1 cap=Tris/NaCl printCode=false
+^XA^PW406^LL51^LH0,0^FO16,10^A0N,24,24^FDINV-000123^FS^XZ
+[]
+### microplate free code=8f14e45f-ceea-467f-a0e6-b906e4a5d7c1 cap=A very long cap name here printCode=true
+^XA^PW406^LL51^LH0,0^BY2^FO16,6^B7N,9,0,10,4,N^FD8f14e45f-ceea-467f-a0e6-b906e4a5d7c1^FS^FO302,10^A0N,15,15^FDINV-0001+^FS^XZ
+[{"level":"warn","field":"line_1","message":"\"INV-000123\" is 10 characters; at most 9 fit (it will be cut with \"+\")"},{"level":"error","field":"barcode","message":"code is 2.35 in wide but only 1.39 in is free"}]
+### microplate free code=8f14e45f-ceea-467f-a0e6-b906e4a5d7c1 cap=A very long cap name here printCode=false
+^XA^PW406^LL51^LH0,0^FO16,10^A0N,24,24^FDINV-000123^FS^XZ
+[]
+### bottle free code=INV-000123 cap=- printCode=true
+^XA^PW609^LL203^LH0,0^FO24,12^A0N,30,30^FDINV-000123^FS^FO24,49^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,79^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,108^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^BY2^FO24,144^B7N,10,0,4,4,N^FDINV-000123^FS^FO406,24^A0N,19,19^FB203,1,0,C^FDINV-000123^FS^FO469,65^BQN,2,4^FDMA,INV-000123^FS^XZ
+[]
+### bottle free code=INV-000123 cap=- printCode=false
+^XA^PW609^LL203^LH0,0^FO24,12^A0N,30,30^FDINV-000123^FS^FO24,49^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,79^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,108^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO406,24^A0N,19,19^FB203,1,0,C^FDINV-000123^FS^XZ
+[]
+### bottle free code=INV-000123 cap=Tris/NaCl printCode=true
+^XA^PW609^LL203^LH0,0^FO24,12^A0N,30,30^FDINV-000123^FS^FO24,49^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,79^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,108^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^BY2^FO24,144^B7N,10,0,4,4,N^FDINV-000123^FS^FO406,24^A0N,20,20^FB203,1,0,C^FDTris/NaCl^FS^FO469,65^BQN,2,4^FDMA,INV-000123^FS^XZ
+[]
+### bottle free code=INV-000123 cap=Tris/NaCl printCode=false
+^XA^PW609^LL203^LH0,0^FO24,12^A0N,30,30^FDINV-000123^FS^FO24,49^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,79^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,108^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO406,24^A0N,20,20^FB203,1,0,C^FDTris/NaCl^FS^XZ
+[]
+### bottle free code=INV-000123 cap=A very long cap name here printCode=true
+^XA^PW609^LL203^LH0,0^FO24,12^A0N,30,30^FDINV-000123^FS^FO24,49^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,79^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,108^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^BY2^FO24,144^B7N,10,0,4,4,N^FDINV-000123^FS^FO406,24^A0N,12,12^FB203,1,0,C^FDA very long ca+^FS^FO469,65^BQN,2,4^FDMA,INV-000123^FS^XZ
+[{"level":"warn","field":"cap_id","message":"\"A very long cap name here\" is 25 characters; at most 15 fit (it will be cut with \"+\")"}]
+### bottle free code=INV-000123 cap=A very long cap name here printCode=false
+^XA^PW609^LL203^LH0,0^FO24,12^A0N,30,30^FDINV-000123^FS^FO24,49^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,79^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,108^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO406,24^A0N,12,12^FB203,1,0,C^FDA very long ca+^FS^XZ
+[{"level":"warn","field":"cap_id","message":"\"A very long cap name here\" is 25 characters; at most 15 fit (it will be cut with \"+\")"}]
+### bottle free code=Abc-0042 cap=- printCode=true
+^XA^PW609^LL203^LH0,0^FO24,12^A0N,30,30^FDINV-000123^FS^FO24,49^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,79^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,108^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^BY2^FO24,144^B7N,10,0,4,4,N^FDAbc-0042^FS^FO406,24^A0N,19,19^FB203,1,0,C^FDINV-000123^FS^FO469,65^BQN,2,4^FDMA,Abc-0042^FS^XZ
+[]
+### bottle free code=Abc-0042 cap=- printCode=false
+^XA^PW609^LL203^LH0,0^FO24,12^A0N,30,30^FDINV-000123^FS^FO24,49^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,79^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,108^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO406,24^A0N,19,19^FB203,1,0,C^FDINV-000123^FS^XZ
+[]
+### bottle free code=Abc-0042 cap=Tris/NaCl printCode=true
+^XA^PW609^LL203^LH0,0^FO24,12^A0N,30,30^FDINV-000123^FS^FO24,49^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,79^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,108^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^BY2^FO24,144^B7N,10,0,4,4,N^FDAbc-0042^FS^FO406,24^A0N,20,20^FB203,1,0,C^FDTris/NaCl^FS^FO469,65^BQN,2,4^FDMA,Abc-0042^FS^XZ
+[]
+### bottle free code=Abc-0042 cap=Tris/NaCl printCode=false
+^XA^PW609^LL203^LH0,0^FO24,12^A0N,30,30^FDINV-000123^FS^FO24,49^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,79^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,108^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO406,24^A0N,20,20^FB203,1,0,C^FDTris/NaCl^FS^XZ
+[]
+### bottle free code=Abc-0042 cap=A very long cap name here printCode=true
+^XA^PW609^LL203^LH0,0^FO24,12^A0N,30,30^FDINV-000123^FS^FO24,49^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,79^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,108^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^BY2^FO24,144^B7N,10,0,4,4,N^FDAbc-0042^FS^FO406,24^A0N,12,12^FB203,1,0,C^FDA very long ca+^FS^FO469,65^BQN,2,4^FDMA,Abc-0042^FS^XZ
+[{"level":"warn","field":"cap_id","message":"\"A very long cap name here\" is 25 characters; at most 15 fit (it will be cut with \"+\")"}]
+### bottle free code=Abc-0042 cap=A very long cap name here printCode=false
+^XA^PW609^LL203^LH0,0^FO24,12^A0N,30,30^FDINV-000123^FS^FO24,49^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,79^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,108^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO406,24^A0N,12,12^FB203,1,0,C^FDA very long ca+^FS^XZ
+[{"level":"warn","field":"cap_id","message":"\"A very long cap name here\" is 25 characters; at most 15 fit (it will be cut with \"+\")"}]
+### bottle free code=INV-AB12CD34EF cap=- printCode=true
+^XA^PW609^LL203^LH0,0^FO24,12^A0N,30,30^FDINV-000123^FS^FO24,49^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,79^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,108^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^BY2^FO24,144^B7N,10,0,5,4,N^FDINV-AB12CD34EF^FS^FO406,24^A0N,19,19^FB203,1,0,C^FDINV-000123^FS^FO469,65^BQN,2,4^FDMA,INV-AB12CD34EF^FS^XZ
+[]
+### bottle free code=INV-AB12CD34EF cap=- printCode=false
+^XA^PW609^LL203^LH0,0^FO24,12^A0N,30,30^FDINV-000123^FS^FO24,49^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,79^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,108^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO406,24^A0N,19,19^FB203,1,0,C^FDINV-000123^FS^XZ
+[]
+### bottle free code=INV-AB12CD34EF cap=Tris/NaCl printCode=true
+^XA^PW609^LL203^LH0,0^FO24,12^A0N,30,30^FDINV-000123^FS^FO24,49^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,79^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,108^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^BY2^FO24,144^B7N,10,0,5,4,N^FDINV-AB12CD34EF^FS^FO406,24^A0N,20,20^FB203,1,0,C^FDTris/NaCl^FS^FO469,65^BQN,2,4^FDMA,INV-AB12CD34EF^FS^XZ
+[]
+### bottle free code=INV-AB12CD34EF cap=Tris/NaCl printCode=false
+^XA^PW609^LL203^LH0,0^FO24,12^A0N,30,30^FDINV-000123^FS^FO24,49^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,79^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,108^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO406,24^A0N,20,20^FB203,1,0,C^FDTris/NaCl^FS^XZ
+[]
+### bottle free code=INV-AB12CD34EF cap=A very long cap name here printCode=true
+^XA^PW609^LL203^LH0,0^FO24,12^A0N,30,30^FDINV-000123^FS^FO24,49^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,79^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,108^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^BY2^FO24,144^B7N,10,0,5,4,N^FDINV-AB12CD34EF^FS^FO406,24^A0N,12,12^FB203,1,0,C^FDA very long ca+^FS^FO469,65^BQN,2,4^FDMA,INV-AB12CD34EF^FS^XZ
+[{"level":"warn","field":"cap_id","message":"\"A very long cap name here\" is 25 characters; at most 15 fit (it will be cut with \"+\")"}]
+### bottle free code=INV-AB12CD34EF cap=A very long cap name here printCode=false
+^XA^PW609^LL203^LH0,0^FO24,12^A0N,30,30^FDINV-000123^FS^FO24,49^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,79^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,108^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO406,24^A0N,12,12^FB203,1,0,C^FDA very long ca+^FS^XZ
+[{"level":"warn","field":"cap_id","message":"\"A very long cap name here\" is 25 characters; at most 15 fit (it will be cut with \"+\")"}]
+### bottle free code=Tris/NaCl-0042-LONGER-CODE-XYZ cap=- printCode=true
+^XA^PW609^LL203^LH0,0^FO24,12^A0N,30,30^FDINV-000123^FS^FO24,49^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,79^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,108^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^BY2^FO24,144^B7N,10,0,7,4,N^FDTris/NaCl-0042-LONGER-CODE-XYZ^FS^FO406,24^A0N,19,19^FB203,1,0,C^FDINV-000123^FS^FO469,65^BQN,2,4^FDMA,Tris/NaCl-0042-LONGER-CODE-XYZ^FS^XZ
+[{"level":"error","field":"body_code","message":"code is 1.85 in wide but only 1.80 in is free"},{"level":"error","field":"qr","message":"code is 0.57 in wide, too big for the circle"}]
+### bottle free code=Tris/NaCl-0042-LONGER-CODE-XYZ cap=- printCode=false
+^XA^PW609^LL203^LH0,0^FO24,12^A0N,30,30^FDINV-000123^FS^FO24,49^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,79^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,108^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO406,24^A0N,19,19^FB203,1,0,C^FDINV-000123^FS^XZ
+[]
+### bottle free code=Tris/NaCl-0042-LONGER-CODE-XYZ cap=Tris/NaCl printCode=true
+^XA^PW609^LL203^LH0,0^FO24,12^A0N,30,30^FDINV-000123^FS^FO24,49^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,79^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,108^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^BY2^FO24,144^B7N,10,0,7,4,N^FDTris/NaCl-0042-LONGER-CODE-XYZ^FS^FO406,24^A0N,20,20^FB203,1,0,C^FDTris/NaCl^FS^FO469,65^BQN,2,4^FDMA,Tris/NaCl-0042-LONGER-CODE-XYZ^FS^XZ
+[{"level":"error","field":"body_code","message":"code is 1.85 in wide but only 1.80 in is free"},{"level":"error","field":"qr","message":"code is 0.57 in wide, too big for the circle"}]
+### bottle free code=Tris/NaCl-0042-LONGER-CODE-XYZ cap=Tris/NaCl printCode=false
+^XA^PW609^LL203^LH0,0^FO24,12^A0N,30,30^FDINV-000123^FS^FO24,49^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,79^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,108^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO406,24^A0N,20,20^FB203,1,0,C^FDTris/NaCl^FS^XZ
+[]
+### bottle free code=Tris/NaCl-0042-LONGER-CODE-XYZ cap=A very long cap name here printCode=true
+^XA^PW609^LL203^LH0,0^FO24,12^A0N,30,30^FDINV-000123^FS^FO24,49^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,79^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,108^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^BY2^FO24,144^B7N,10,0,7,4,N^FDTris/NaCl-0042-LONGER-CODE-XYZ^FS^FO406,24^A0N,12,12^FB203,1,0,C^FDA very long ca+^FS^FO469,65^BQN,2,4^FDMA,Tris/NaCl-0042-LONGER-CODE-XYZ^FS^XZ
+[{"level":"warn","field":"cap_id","message":"\"A very long cap name here\" is 25 characters; at most 15 fit (it will be cut with \"+\")"},{"level":"error","field":"body_code","message":"code is 1.85 in wide but only 1.80 in is free"},{"level":"error","field":"qr","message":"code is 0.57 in wide, too big for the circle"}]
+### bottle free code=Tris/NaCl-0042-LONGER-CODE-XYZ cap=A very long cap name here printCode=false
+^XA^PW609^LL203^LH0,0^FO24,12^A0N,30,30^FDINV-000123^FS^FO24,49^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,79^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,108^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO406,24^A0N,12,12^FB203,1,0,C^FDA very long ca+^FS^XZ
+[{"level":"warn","field":"cap_id","message":"\"A very long cap name here\" is 25 characters; at most 15 fit (it will be cut with \"+\")"}]
+### bottle free code=x^y cap=- printCode=true
+^XA^PW609^LL203^LH0,0^FO24,12^A0N,30,30^FDINV-000123^FS^FO24,49^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,79^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,108^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^BY2^FO24,144^B7N,10,0,4,4,N^FDx y^FS^FO406,24^A0N,19,19^FB203,1,0,C^FDINV-000123^FS^FO469,65^BQN,2,4^FDMA,x y^FS^XZ
+[{"level":"error","field":"code","message":"contains ^ or ~, which cannot be printed"}]
+### bottle free code=x^y cap=- printCode=false
+^XA^PW609^LL203^LH0,0^FO24,12^A0N,30,30^FDINV-000123^FS^FO24,49^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,79^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,108^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO406,24^A0N,19,19^FB203,1,0,C^FDINV-000123^FS^XZ
+[]
+### bottle free code=x^y cap=Tris/NaCl printCode=true
+^XA^PW609^LL203^LH0,0^FO24,12^A0N,30,30^FDINV-000123^FS^FO24,49^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,79^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,108^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^BY2^FO24,144^B7N,10,0,4,4,N^FDx y^FS^FO406,24^A0N,20,20^FB203,1,0,C^FDTris/NaCl^FS^FO469,65^BQN,2,4^FDMA,x y^FS^XZ
+[{"level":"error","field":"code","message":"contains ^ or ~, which cannot be printed"}]
+### bottle free code=x^y cap=Tris/NaCl printCode=false
+^XA^PW609^LL203^LH0,0^FO24,12^A0N,30,30^FDINV-000123^FS^FO24,49^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,79^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,108^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO406,24^A0N,20,20^FB203,1,0,C^FDTris/NaCl^FS^XZ
+[]
+### bottle free code=x^y cap=A very long cap name here printCode=true
+^XA^PW609^LL203^LH0,0^FO24,12^A0N,30,30^FDINV-000123^FS^FO24,49^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,79^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,108^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^BY2^FO24,144^B7N,10,0,4,4,N^FDx y^FS^FO406,24^A0N,12,12^FB203,1,0,C^FDA very long ca+^FS^FO469,65^BQN,2,4^FDMA,x y^FS^XZ
+[{"level":"warn","field":"cap_id","message":"\"A very long cap name here\" is 25 characters; at most 15 fit (it will be cut with \"+\")"},{"level":"error","field":"code","message":"contains ^ or ~, which cannot be printed"}]
+### bottle free code=x^y cap=A very long cap name here printCode=false
+^XA^PW609^LL203^LH0,0^FO24,12^A0N,30,30^FDINV-000123^FS^FO24,49^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,79^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,108^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO406,24^A0N,12,12^FB203,1,0,C^FDA very long ca+^FS^XZ
+[{"level":"warn","field":"cap_id","message":"\"A very long cap name here\" is 25 characters; at most 15 fit (it will be cut with \"+\")"}]
+### bottle free code=héllo cap=- printCode=true
+^XA^PW609^LL203^LH0,0^FO24,12^A0N,30,30^FDINV-000123^FS^FO24,49^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,79^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,108^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^BY2^FO24,144^B7N,10,0,4,4,N^FDhéllo^FS^FO406,24^A0N,19,19^FB203,1,0,C^FDINV-000123^FS^FO469,65^BQN,2,4^FDMA,héllo^FS^XZ
+[{"level":"error","field":"code","message":"contains characters outside printable ASCII"}]
+### bottle free code=héllo cap=- printCode=false
+^XA^PW609^LL203^LH0,0^FO24,12^A0N,30,30^FDINV-000123^FS^FO24,49^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,79^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,108^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO406,24^A0N,19,19^FB203,1,0,C^FDINV-000123^FS^XZ
+[]
+### bottle free code=héllo cap=Tris/NaCl printCode=true
+^XA^PW609^LL203^LH0,0^FO24,12^A0N,30,30^FDINV-000123^FS^FO24,49^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,79^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,108^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^BY2^FO24,144^B7N,10,0,4,4,N^FDhéllo^FS^FO406,24^A0N,20,20^FB203,1,0,C^FDTris/NaCl^FS^FO469,65^BQN,2,4^FDMA,héllo^FS^XZ
+[{"level":"error","field":"code","message":"contains characters outside printable ASCII"}]
+### bottle free code=héllo cap=Tris/NaCl printCode=false
+^XA^PW609^LL203^LH0,0^FO24,12^A0N,30,30^FDINV-000123^FS^FO24,49^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,79^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,108^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO406,24^A0N,20,20^FB203,1,0,C^FDTris/NaCl^FS^XZ
+[]
+### bottle free code=héllo cap=A very long cap name here printCode=true
+^XA^PW609^LL203^LH0,0^FO24,12^A0N,30,30^FDINV-000123^FS^FO24,49^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,79^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,108^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^BY2^FO24,144^B7N,10,0,4,4,N^FDhéllo^FS^FO406,24^A0N,12,12^FB203,1,0,C^FDA very long ca+^FS^FO469,65^BQN,2,4^FDMA,héllo^FS^XZ
+[{"level":"warn","field":"cap_id","message":"\"A very long cap name here\" is 25 characters; at most 15 fit (it will be cut with \"+\")"},{"level":"error","field":"code","message":"contains characters outside printable ASCII"}]
+### bottle free code=héllo cap=A very long cap name here printCode=false
+^XA^PW609^LL203^LH0,0^FO24,12^A0N,30,30^FDINV-000123^FS^FO24,49^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,79^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,108^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO406,24^A0N,12,12^FB203,1,0,C^FDA very long ca+^FS^XZ
+[{"level":"warn","field":"cap_id","message":"\"A very long cap name here\" is 25 characters; at most 15 fit (it will be cut with \"+\")"}]
+### bottle free code=8f14e45f-ceea-467f-a0e6-b906e4a5d7c1 cap=- printCode=true
+^XA^PW609^LL203^LH0,0^FO24,12^A0N,30,30^FDINV-000123^FS^FO24,49^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,79^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,108^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^BY2^FO24,144^B7N,10,0,10,4,N^FD8f14e45f-ceea-467f-a0e6-b906e4a5d7c1^FS^FO406,24^A0N,19,19^FB203,1,0,C^FDINV-000123^FS^FO469,65^BQN,2,4^FDMA,8f14e45f-ceea-467f-a0e6-b906e4a5d7c1^FS^XZ
+[{"level":"error","field":"body_code","message":"code is 2.35 in wide but only 1.80 in is free"},{"level":"error","field":"qr","message":"code is 0.57 in wide, too big for the circle"}]
+### bottle free code=8f14e45f-ceea-467f-a0e6-b906e4a5d7c1 cap=- printCode=false
+^XA^PW609^LL203^LH0,0^FO24,12^A0N,30,30^FDINV-000123^FS^FO24,49^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,79^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,108^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO406,24^A0N,19,19^FB203,1,0,C^FDINV-000123^FS^XZ
+[]
+### bottle free code=8f14e45f-ceea-467f-a0e6-b906e4a5d7c1 cap=Tris/NaCl printCode=true
+^XA^PW609^LL203^LH0,0^FO24,12^A0N,30,30^FDINV-000123^FS^FO24,49^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,79^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,108^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^BY2^FO24,144^B7N,10,0,10,4,N^FD8f14e45f-ceea-467f-a0e6-b906e4a5d7c1^FS^FO406,24^A0N,20,20^FB203,1,0,C^FDTris/NaCl^FS^FO469,65^BQN,2,4^FDMA,8f14e45f-ceea-467f-a0e6-b906e4a5d7c1^FS^XZ
+[{"level":"error","field":"body_code","message":"code is 2.35 in wide but only 1.80 in is free"},{"level":"error","field":"qr","message":"code is 0.57 in wide, too big for the circle"}]
+### bottle free code=8f14e45f-ceea-467f-a0e6-b906e4a5d7c1 cap=Tris/NaCl printCode=false
+^XA^PW609^LL203^LH0,0^FO24,12^A0N,30,30^FDINV-000123^FS^FO24,49^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,79^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,108^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO406,24^A0N,20,20^FB203,1,0,C^FDTris/NaCl^FS^XZ
+[]
+### bottle free code=8f14e45f-ceea-467f-a0e6-b906e4a5d7c1 cap=A very long cap name here printCode=true
+^XA^PW609^LL203^LH0,0^FO24,12^A0N,30,30^FDINV-000123^FS^FO24,49^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,79^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,108^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^BY2^FO24,144^B7N,10,0,10,4,N^FD8f14e45f-ceea-467f-a0e6-b906e4a5d7c1^FS^FO406,24^A0N,12,12^FB203,1,0,C^FDA very long ca+^FS^FO469,65^BQN,2,4^FDMA,8f14e45f-ceea-467f-a0e6-b906e4a5d7c1^FS^XZ
+[{"level":"warn","field":"cap_id","message":"\"A very long cap name here\" is 25 characters; at most 15 fit (it will be cut with \"+\")"},{"level":"error","field":"body_code","message":"code is 2.35 in wide but only 1.80 in is free"},{"level":"error","field":"qr","message":"code is 0.57 in wide, too big for the circle"}]
+### bottle free code=8f14e45f-ceea-467f-a0e6-b906e4a5d7c1 cap=A very long cap name here printCode=false
+^XA^PW609^LL203^LH0,0^FO24,12^A0N,30,30^FDINV-000123^FS^FO24,49^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,79^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO24,108^A0N,19,19^FDTris 50 mM, NaCl 150 mM, pH 7.4^FS^FO406,24^A0N,12,12^FB203,1,0,C^FDA very long ca+^FS^XZ
+[{"level":"warn","field":"cap_id","message":"\"A very long cap name here\" is 25 characters; at most 15 fit (it will be cut with \"+\")"}]

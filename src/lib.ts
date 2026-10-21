@@ -4,7 +4,7 @@
 // The React app does not import this file; it only re-exports existing modules.
 
 export { TEMPLATES, getTemplate } from "./labels/templates";
-export { resolveField, fitFontSize, estimateMaxChars, MIN_FONT_SIZE_IN } from "./labels/resolve";
+export { fieldText, resolveField, fitFontSize, estimateMaxChars, MIN_FONT_SIZE_IN } from "./labels/resolve";
 export { buildLabelZpl, buildBatchZpl } from "./zpl/builder";
 export { resolveQrPayload } from "./qr/content";
 export {
@@ -16,6 +16,8 @@ export {
   validateLabelQr,
   validateBatchRow,
 } from "./qr/validation";
+export { checkLabel } from "./labels/check";
+export type { LabelIssue } from "./labels/check";
 export { MAX_LINES, emptyRow, rowToLabelData } from "./batch/table";
 export type { BatchRow } from "./batch/table";
 export type {
