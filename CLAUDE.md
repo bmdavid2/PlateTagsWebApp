@@ -21,6 +21,8 @@ npm install        # once
 npm run dev        # dev server at http://localhost:5173
 npm run build      # typecheck (tsc -b) + production build to dist/
 npm run lint       # tsc --noEmit typecheck only
+npm run build:lib  # bundle the label core to lib/platetags-core.js (+ .d.ts); see docs/label-core-lib.md
+npx tsx test/golden-zpl.ts   # golden ZPL regression (must print OK before/after any core change)
 ```
 
 There is no test runner configured. To exercise the ZPL builder headlessly, run a small
