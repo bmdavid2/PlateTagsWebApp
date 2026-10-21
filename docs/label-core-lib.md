@@ -108,3 +108,17 @@ not confirmed on this hardware.
 Sources: Zebra [Browser Print v1.2.1 notes](https://developer.zebra.com/community/home/blog/2018/12/04/browser-print-v121-released),
 [Chrome Local Network Access](https://developer.chrome.com/blog/local-network-access),
 and the client source above.
+
+## Bottle + cap label is the inventory label (user decision)
+
+For the bottle template the gaps narrow to:
+
+- **Barcode string**: still lower-cased and validated as 7 hex (gap 1). Physically the
+  PDF417 (4 rows, up to ~1.76 in wide) holds lowercase-alphanumeric codes up to at least 14
+  characters (1.35 in to 1.68 in) and `INV-`+digits up to 13 at 1.35 in; the QR in the cap
+  has ample room. The only blocker is the lower-casing/validation, not space.
+- **Layout**: `line_1` (up to 19 characters at 0.15 in, ~48 at the floor) is also echoed
+  on the cap, where only 10 characters fit at normal size and 15 at the floor. Put the short
+  ID/barcode in `line_1`, name in `line_2` (24 / ~48), composition in `line_3`, and
+  date, preparer, expiry and storage merged into `line_4` (29 / ~48). Four lines is the limit.
+- The cap label would show `line_1` and the QR; the body PDF417 repeats the same code.
